@@ -4,6 +4,7 @@
   : 모델의 train과 test를 모두 진행함.
   1. Pix2Pix
   2. CycleGAN
+  
   *Dataset
   
 - 이미지 캡셔닝 (Image Captioning)\
