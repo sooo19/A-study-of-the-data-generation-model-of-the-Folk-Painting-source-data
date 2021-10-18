@@ -6,9 +6,9 @@
   2. CycleGAN
   *Dataset
   
-- 이미지 캡셔닝 (Image Captioning)
-  : Pre-trained model을 활용하여 새로운 데이터 셋의 test를 진행함.
+- 이미지 캡셔닝 (Image Captioning)\
+  : Pre-trained model을 활용하여 새로운 데이터 셋의 test를 진행함.\
   
-  *Dataset: CocoDataset 
+  *Dataset: CocoDataset\
             https://cocodataset.org/#home
   
