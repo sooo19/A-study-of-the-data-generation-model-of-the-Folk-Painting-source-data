@@ -10,5 +10,8 @@
 - 이미지 캡셔닝 (Image Captioning)\
   : Pre-trained model을 활용하여 새로운 데이터 셋의 test를 진행함.
   
-  *Dataset: CocoDataset (https://cocodataset.org/#home)
+  1) Mask R-CNN model (+VQA model for captioning) 
+  2) YOLOv5 model
+  
+  *Dataset for pre-training: CocoDataset (https://cocodataset.org/#home)
   
