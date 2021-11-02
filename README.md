@@ -15,3 +15,4 @@
   
   *Dataset for pre-training: CocoDataset (https://cocodataset.org/#home)
   
+  3) Show and Tell(Neural Image Captioning): ResNet101(CNN)+RNN
