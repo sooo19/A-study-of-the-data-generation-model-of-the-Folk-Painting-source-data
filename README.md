@@ -1,18 +1,28 @@
 # 민화원천데이터 생성모델 연구
+### 21가지 장르의 민화DB를 활용해 새로운 이미지를 생성하고, 각 이미지 별 설명 캡션을 생성과 객체 검출을 진행한다.
 
-- 이미지 생성 모델\
-  : 모델의 train과 test를 모두 진행함.
-  1. Pix2Pix
-  2. CycleGAN
-  
-    *Dataset
-  
-- 이미지 캡셔닝 (Image Captioning)\
-  : Pre-trained model을 활용하여 새로운 데이터 셋의 test를 진행함.
-  
-  1) Mask R-CNN model (+VQA model for captioning) 
-  2) YOLOv5 model
-  
-  *Dataset for pre-training: CocoDataset (https://cocodataset.org/#home)
-  
-  3) Show and Tell(Neural Image Captioning): ResNet101(CNN)+RNN
+* Image Captioining
+    * Mask R-CNN, VQA model
+    * ResNet, Transformer
+    * Show and Tell(Neural Image Captioning): ResNet101(CNN)+RNN
+
+* Object Detection
+    * YOLOv5
+
+* Image Classification
+    * ResNet50
+
+* Image Segmentation
+    * DeepLabV3 plus
+
+* Image Generation
+    * Pix2Pix
+    * CycleGAN
+
+* Open Dataset
+    * COCO dataset(https://cocodataset.org/#home) for Image Captioning, Object Detection, Image Segmentation
+    * Cityscapes dataset for Image Segmentation
+
+
+
+
